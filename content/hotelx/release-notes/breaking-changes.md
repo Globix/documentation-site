@@ -17,12 +17,19 @@
 {{% release-notes-container type="u"%}}
 - Removal of `distribute` from `AddOns`. Reason: You can find it in distribution AddOn.  Deprecated on 2018-05-21.Expected removal on 2018-08-19.
 {{% / release-notes-container %}}
-### 2018-07-25
-{{% release-notes-container type="r"%}}
-- Removed `distribute` from `AddOns`. Reason: You can find it in distribution AddOn. Deprecated on 2018-05-21 .
+### 2018-08-03
+{{% release-notes-container type="d"%}}
+- Deprecated `organization` from `PaymentXBookingInfoFilterInput`. Reason: Please use PaymentXBookingInfoCriteriaInput. Finally removed on 2018-07-24 .
+- Deprecated `pointOfSaleCode` from `PaymentXBookingInfoFilterInput`. Reason: Please use PaymentXBookingInfoCriteriaInput. Finally removed on 2018-07-24 .
+- Deprecated `bookingReference` from `PaymentXBookingInfoFilterInput`. Reason: Please use PaymentXBookingInfoCriteriaInput. Finally removed on 2018-07-24 .
 {{% / release-notes-container %}}
 ### 2018-07-24
 {{% release-notes-container type="r"%}}
+- Removed `useContext` from `HotelSettingsInput`. Reason: Redundant.. Deprecated on 2017-12-12 .
+- Removed `connectUser` from `HotelSettingsInput`. Reason: Redundant.. Deprecated on 2018-03-19 .
+- Removed `organization` from `PaymentXBookingInfoFilterInput`. Reason: Please use PaymentXBookingInfoCriteriaInput. Deprecated on 2018-08-03 .
+- Removed `pointOfSaleCode` from `PaymentXBookingInfoFilterInput`. Reason: Please use PaymentXBookingInfoCriteriaInput. Deprecated on 2018-08-03 .
+- Removed `bookingReference` from `PaymentXBookingInfoFilterInput`. Reason: Please use PaymentXBookingInfoCriteriaInput. Deprecated on 2018-08-03 .
 - Removed `distribute` from `AddOns`. Reason: You can find it in distribution AddOn. Deprecated on 2018-05-21 .
 {{% / release-notes-container %}}
 ### 2018-07-09
@@ -42,7 +49,15 @@
 ### 2018-05-21
 {{% release-notes-container type="d"%}}
 - Deprecated `distribute` from `AddOns`. Reason: You can find it in distribution AddOn. Finally removed on 2018-07-24 .
-- Deprecated `distribute` from `AddOns`. Reason: You can find it in distribution AddOn. Finally removed on 2018-07-25 .
+- Deprecated `distribute` from `AddOns`. Reason: You can find it in distribution AddOn. Expected removal on 2018-08-19 .
+{{% / release-notes-container %}}
+### 2018-03-19
+{{% release-notes-container type="d"%}}
+- Deprecated `connectUser` from `HotelSettingsInput`. Reason: Redundant.. Finally removed on 2018-07-24 .
+{{% / release-notes-container %}}
+### 2017-12-12
+{{% release-notes-container type="d"%}}
+- Deprecated `useContext` from `HotelSettingsInput`. Reason: Redundant.. Finally removed on 2018-07-24 .
 {{% / release-notes-container %}}
 ### 2017-11-21
 {{% release-notes-container type="d"%}}
