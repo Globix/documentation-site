@@ -12,6 +12,45 @@ To make it easier for users and contributors to see precisely what notable chang
 
 {{% alert theme="info" %}}All notable changes on TravelgateX platform will be documented in this page.{{% /alert %}}
 
+{{% release-notes-container type="u"%}}
+- Fix IAM mutations
+{{% /release-notes-container %}}
+
+## 2018-07-27{#20180727}
+
+{{% release-notes-container type="f"%}}
+- Organizations queries resolvers
+{{% /release-notes-container %}}
+
+## 2018-07-26{#20180726}
+
+{{% release-notes-container type="c"%}}
+- [GraphQL Schema updated.](/travelgatex/release-notes/graphql-schema-changes/#20180726)
+{{% /release-notes-container %}}
+{{% release-notes-container type="f"%}}
+- Groups resolvers
+{{% /release-notes-container %}}
+
+
+## 2018-07-25{#20180725}
+
+{{% release-notes-container type="c"%}}
+- [GraphQL Schema updated.](/travelgatex/release-notes/graphql-schema-changes/#20180725)
+- Admin permissions management for groups.
+{{% /release-notes-container %}}
+{{% release-notes-container type="r"%}}
+- Old support Apikey
+{{% /release-notes-container %}}
+{{% release-notes-container type="f"%}}
+- Team's permission management for groups.
+{{% /release-notes-container %}}
+{{% release-notes-container type="a"%}}
+- Flow (Cascade) permissions.
+- Inprove time response of groups resolvers.
+{{% /release-notes-container %}}
+
+
+
 ## 2018-07-16{#20180716}
 
 {{% release-notes-container type="a"%}}

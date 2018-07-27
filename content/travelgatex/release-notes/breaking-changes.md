@@ -67,6 +67,10 @@
 - Removed `bookingReference` from `PaymentXBookingInfoFilterInput`. Reason: Please use PaymentXBookingInfoCriteriaInput. Deprecated on 2018-08-03 .
 - Removed `distribute` from `AddOns`. Reason: You can find it in distribution AddOn. Deprecated on 2018-05-21 .
 {{% / release-notes-container %}}
+### 2018-07-19
+{{% release-notes-container type="r"%}}
+- Removed `distribute` from `AddOns`. Reason: You can find it in distribution AddOn. Deprecated on 2018-05-21 .
+{{% / release-notes-container %}}
 ### 2018-07-09
 {{% release-notes-container type="r"%}}
 - Removed `quote` from `Query`. Reason: You can find it in query at HotelX. Deprecated on 2017-11-21 .
@@ -83,9 +87,7 @@
 {{% / release-notes-container %}}
 ### 2018-05-21
 {{% release-notes-container type="d"%}}
-- Deprecated `distribute` from `AddOns`. Reason: You can find it in distribution AddOn. Finally removed on 2018-07-25 .
-- Deprecated `distribute` from `AddOns`. Reason: You can find it in distribution AddOn. Finally removed on 2018-07-25 .
-- Deprecated `distribute` from `AddOns`. Reason: You can find it in distribution AddOn. Finally removed on 2018-07-24 .
+- Deprecated `distribute` from `AddOns`. Reason: You can find it in distribution AddOn. Finally removed on 2018-07-19 .
 {{% / release-notes-container %}}
 ### 2018-03-19
 {{% release-notes-container type="d"%}}
